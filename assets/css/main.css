@@ -2262,6 +2262,7 @@ input, select, textarea {
 			padding: 0.65em;
 			margin: 0 0 2em 0;
 			cursor: default;
+			
 		}
 
 			.icon.major:before {
@@ -3786,4 +3787,9 @@ input, select, textarea {
 
 	.projectsBG {
 		max-height: 400px;
+	}
+
+	.wgd {
+		max-width: 50%;  
+		max-height: auto;
 	}
