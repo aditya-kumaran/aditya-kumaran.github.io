@@ -3793,3 +3793,8 @@ input, select, textarea {
 		max-width: 50%;  
 		max-height: auto;
 	}
+
+	.ytpn {
+		max-width: 30%;  
+		max-height: auto;
+	}
