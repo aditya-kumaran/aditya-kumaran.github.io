@@ -5,108 +5,205 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Aditya Kumaran - Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Aditya Kumaran - Projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Projects</h1>
-						<p>Check out my work</p>
-					</header>
+<body class="is-preload">
 
-				<!-- Main -->
-					<div id="main">
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-						<!-- Content -->
-							<section id="content" class="main">
-								
-								<h2>PolitiQuack</h2>
-								<p>PolitiQuack is a multifaceted interface that seeks to concentrate relevant, reliable data regarding the US 2020 Presidential Election. The features offered include a Fake News Detector, unique party-specific news and updates, FAQs and voter tips, as well as a customized state-wise representative contact map.</p>
-								<span class="image main"><img src="images/politiquackHome.png" alt="" /></span>
-								<p>Check out our codebase, which includes more information about the project: https://github.com/Peter-Feng-32/PoliticalDashboard</p>
-								<p>Check out our Fake News Detection notebook: https://colab.research.google.com/drive/1rMUXdFfmRvFZb-CvWPSAvzNEUUhH05gb</p>
-								<h2>Tech Defense</h2>
-								<p>Tech Defense is a tower defense game built with Java and JavaFX, particularly using the FXML and FXGL libraries. Following the Agile Developmental Process, my team and I incorporated elements of procedural generation for random paths and multi-threading to run processes simultaneously.</p>
-								<span class="image main"><img src="images/techDefense.png" alt="" /></span>
-								<p>Check out a demo video for our game: https://www.youtube.com/watch?v=4uMuu8ix6Vk </p>
-								<h2>TaskPalette</h2>
-								<p>Built a task to-do list dashboard using React, Javascript, and TypeScript. Individual tasks are assigned to a due date and can be associated with custom tags. Registered tasks can be sorted based on earliest due date, completed status, or both. HTML/CSS for style.</p>
-								<span class="image main"><img src="images/taskPalette.png" alt="" /></span>
-								<p>Check out my codebase: https://github.com/aditya-kumaran/fall2021-dev-takehome </p>
-								<h2>NLP QA Classifier</h2>
-								<p>Built, trained, and tested an NLP classifier to recognize intent of question-style input dataset and accordingly sort into classes. Used CountVectorizer from scikit-learn to vectorize individual words and map their frequency to classes. Modeled through LinearSVC. Analyzed through iris dataset and sklearn metrics. Further documentation available in pdf form in repository.</p>
-								<p>Accuracy according to sklearn and iris dataset = 75.54% </p>
-								<span class="image main"><img src="images/nlpQA.png" alt="" /></span>
-								<p>Check out my codebase: https://github.com/aditya-kumaran/vectorClassifier </p>
-								<h2>MasterClassers</h2>
-								<p>Created a custom website to share entertainment-centric movie reviews, classifying entries into a hierarchy of classes, different genres, and a score out of 10. Provided both spoiler-free and post-watch reviews for each entry. Added option for viewers to contact and request movies to be reviewed. Over 100 movies personally reviewed in the database, being published iteratively using a specialized Bash script.</p>
-								<span class="image main"><img src="images/masterclassers.png" alt="" /></span>
-								<p>Check out the website here: https://aditya-kumaran.github.io/MasterClassers/ </p>
-								<p>Check out my codebase: https://github.com/aditya-kumaran/MasterClassers </p>
-								<h2>EMADE</h2>
-								<p>Used the Evolutionary Multi-objective Algorithm Design Engine to evaluate data sets using genetic algorithms and plot the pareto optimal individuals. Set up MySQL Server to run master process; further applied customized evaluation functions to individuals in a database, using Machine Learning algorithms as primitives. Worked with both the Modules and NLP sub-teams, specifically on visualization of pareto indivduals and autopsy of MOGP results relative to BiDAF ML models on the SQuAD dataset respectively. Interfaced with HPC through the PACE supercomputer for faster evolutionary runs and collaborative simulations.</p>
-								<p>Project files are confidential under student-honor NDA.</p>
-								<h2>Sentiment Analysis of Hotel Reviews Dataset</h2>
-								<p>Discerned the sentiment of hotel review text data with 515,000 reviews compiled from Booking.com concering 1493 luxury hotels across Europe, using various established NLP techniques. Performed data cleaning and pre-processing by removing stopwords, lemmatization, and using NLTK library’s Vader analysis. Feature selection added the original RelativeWordCount feature, and models used TF-IDF, Bag of Words, and Word2Vec embeddings for Multinomial Naive Bayes, RandomForest, SVM, and Logistic Regression to classify reviews according to positive or negative sentiment. Analyzed results with 6 metrics, performed hyperparameter tuning to fine-tune results.</p>
-								<p>Dataset: https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe </p>
-								<span class="image main"><img src="images/sentimentAnalysis.png" alt="" /></span>
-								<p>Project Report: https://github.gatech.edu/pages/jkim3663/cs4641-project.github.io/final.html</p>
-								<p>Good Words: &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Bad Words:</p>
-								<img src="images/sentimentAnalysis1.png" height=275; width=200;/>
-								<img src="images/sentimentAnalysis2.png" height=275; width=200;/>
+		<!-- Header -->
+		<header id="header">
+			<h1>Projects</h1>
+			<p>Check out my work</p>
+		</header>
 
-								<p>Project Video Summary: https://www.youtube.com/watch?v=OvUOEI-oxD4</p>
+		<!-- Main -->
+		<div id="main">
 
-								<h2>Georgia Tech Student Government Association</h2>
-								<p>Rebuilt legacy JacketPages application, used for submission of monetary bills and resolutions for the entire Georgia Tech student body; identified inoptimal features to be reimplemented and coordinated tasking. As Project Manager, recruited and managed 5-member team of undergraduate and graduate SWE developers. Worked with Directors to negotiate approval from Dean Stein to send survey emails to a student body listserv.</p>
-								<span class="image main"><img src="images/jacketPages.png" alt="" /></span> <br></br>
+			<!-- Content -->
+			<section id="content" class="main">
 
-							</section>
+				<h2>PolitiQuack</h2>
+				<p>PolitiQuack is a multifaceted interface that seeks to concentrate relevant, reliable data regarding
+					the US 2020 Presidential Election. The features offered include a Fake News Detector, unique
+					party-specific news and updates, FAQs and voter tips, as well as a customized state-wise
+					representative contact map.</p>
+				<span class="image main"><img src="images/politiquackHome.png" alt="" /></span>
+				<p>Check out our codebase, which includes more information about the project:
+					https://github.com/Peter-Feng-32/PoliticalDashboard</p>
+				<p>Check out our Fake News Detection notebook:
+					https://colab.research.google.com/drive/1rMUXdFfmRvFZb-CvWPSAvzNEUUhH05gb</p>
+				<h2>Tech Defense</h2>
+				<p>Tech Defense is a tower defense game built with Java and JavaFX, particularly using the FXML and FXGL
+					libraries. Following the Agile Developmental Process, my team and I incorporated elements of
+					procedural generation for random paths and multi-threading to run processes simultaneously.</p>
+				<span class="image main"><img src="images/techDefense.png" alt="" /></span>
+				<p>Check out a demo video for our game: https://www.youtube.com/watch?v=4uMuu8ix6Vk </p>
+				<h2>TaskPalette</h2>
+				<p>Built a task to-do list dashboard using React, Javascript, and TypeScript. Individual tasks are
+					assigned to a due date and can be associated with custom tags. Registered tasks can be sorted based
+					on earliest due date, completed status, or both. HTML/CSS for style.</p>
+				<span class="image main"><img src="images/taskPalette.png" alt="" /></span>
+				<p>Check out my codebase: https://github.com/aditya-kumaran/fall2021-dev-takehome </p>
+				<h2>NLP QA Classifier</h2>
+				<p>Built, trained, and tested an NLP classifier to recognize intent of question-style input dataset and
+					accordingly sort into classes. Used CountVectorizer from scikit-learn to vectorize individual words
+					and map their frequency to classes. Modeled through LinearSVC. Analyzed through iris dataset and
+					sklearn metrics. Further documentation available in pdf form in repository.</p>
+				<p>Accuracy according to sklearn and iris dataset = 75.54% </p>
+				<span class="image main"><img src="images/nlpQA.png" alt="" /></span>
+				<p>Check out my codebase: https://github.com/aditya-kumaran/vectorClassifier </p>
+				<h2>MasterClassers</h2>
+				<p>Created a custom website to share entertainment-centric movie reviews, classifying entries into a
+					hierarchy of classes, different genres, and a score out of 10. Provided both spoiler-free and
+					post-watch reviews for each entry. Added option for viewers to contact and request movies to be
+					reviewed. Over 100 movies personally reviewed in the database, being published iteratively using a
+					specialized Bash script.</p>
+				<span class="image main"><img src="images/masterclassers.png" alt="" /></span>
+				<p>Check out the website here: https://aditya-kumaran.github.io/MasterClassers/ </p>
+				<p>Check out my codebase: https://github.com/aditya-kumaran/MasterClassers </p>
+				<h2>EMADE</h2>
+				<p>Used the Evolutionary Multi-objective Algorithm Design Engine to evaluate data sets using genetic
+					algorithms and plot the pareto optimal individuals. Set up MySQL Server to run master process;
+					further applied customized evaluation functions to individuals in a database, using Machine Learning
+					algorithms as primitives. Worked with both the Modules and NLP sub-teams, specifically on
+					visualization of pareto indivduals and autopsy of MOGP results relative to BiDAF ML models on the
+					SQuAD dataset respectively. Interfaced with HPC through the PACE supercomputer for faster
+					evolutionary runs and collaborative simulations.</p>
+				<p>Project files are confidential under student-honor NDA.</p>
+				<h2>Sentiment Analysis of Hotel Reviews Dataset</h2>
+				<p>Discerned the sentiment of hotel review text data with 515,000 reviews compiled from Booking.com
+					concering 1493 luxury hotels across Europe, using various established NLP techniques. Performed data
+					cleaning and pre-processing by removing stopwords, lemmatization, and using NLTK library’s Vader
+					analysis. Feature selection added the original RelativeWordCount feature, and models used TF-IDF,
+					Bag of Words, and Word2Vec embeddings for Multinomial Naive Bayes, RandomForest, SVM, and Logistic
+					Regression to classify reviews according to positive or negative sentiment. Analyzed results with 6
+					metrics, performed hyperparameter tuning to fine-tune results.</p>
+				<p>Dataset: https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe </p>
+				<span class="image main"><img src="images/sentimentAnalysis.png" alt="" /></span>
+				<p>Project Report: https://github.gatech.edu/pages/jkim3663/cs4641-project.github.io/final.html</p>
+				<p>Good Words: &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Bad Words:</p>
+				<img src="images/sentimentAnalysis1.png" height=275; width=200; />
+				<img src="images/sentimentAnalysis2.png" height=275; width=200; />
 
-					</div>
+				<p>Project Video Summary: https://www.youtube.com/watch?v=OvUOEI-oxD4</p>
 
-				<!-- Footer -->
-					<footer id="footer">
-						
-						<section>
-							<h2>Get In Touch</h2>
-							<dl class="alt">
-								<dt>LinkedIn</dt>
-								<dd><a href="https://www.linkedin.com/in/aditya-kumaran/">Aditya Kumaran</a></dd>
-								<dt>Phone</dt>
-								<dd>(470) 838-0468</dd>
-								<dt>Email</dt>
-								<dd><a href="#">akumaran6@gatech.edu</a></dd>
-							</dl>
-							<ul class="icons">
-								<!-- <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+				<h2>Georgia Tech Student Government Association</h2>
+				<p>Rebuilt legacy JacketPages application, used for submission of monetary bills and resolutions for the
+					entire Georgia Tech student body; identified inoptimal features to be reimplemented and coordinated
+					tasking. As Project Manager, recruited and managed 5-member team of undergraduate and graduate SWE
+					developers. Worked with Directors to negotiate approval from Dean Stein to send survey emails to a
+					student body listserv.</p>
+				<span class="image main"><img src="images/jacketPages.png" alt="" /></span> <br></br>
+
+
+				<h2>Deep Philharmonics - Music Generation</h2>
+				<p>Created an Deep Learning music generation pipeline by tuning and re-training 4 open-source ML models
+					to produce an original song given an input song (vocals and instrumental) and target voice sample.
+					Fine-tuned Demucs for
+					waveform separation, Spotify’s U-Net and attention-based BasicPitch for audio transcription, and
+					Google’s transformer
+					model for music generation. Calculated cross-correlation between original and output tracks using
+					FFT convolutions as a similarity metric.</p>
+					<span class="image"><img src="images/deepPhilharmonics3.png" alt="" /></span>
+				<span class="image"><img src="images/deepPhilharmonics2.png" alt="" /></span> 
+				<span class="image"><img src="images/deepPhilharmonics.png" alt="" /></span><br></br>
+				<p>Project Report: https://drive.google.com/file/d/1R4FMGbaWnWtzGI37dMBMfv5RyDgHpGX2/view?usp=sharing
+				</p>
+				<p>Generated samples can be found in the report (Evaluation section).</p>
+
+
+				<h2>Dynamic Movie Recommendation Systems - Temporal GNNs</h2>
+				<p>Implemented and evaluate Heterogeneous Graph Trans-
+					formers (HGT) and Temporal Graph Network (TGN) models on the Movie-
+					Lens100k dataset for temporal recommendations to support changing preferences and new users,
+					performing necessary preprocessing steps. Propose new
+					variant of temporal HGT to improve performance. </p>
+				<span class="image"><img src="images/temporalGNN1.png" alt="" /></span> 
+				<span class="image"><img src="images/temporalGNN2.png" alt="" /></span> <br></br>
+				<p>Project Report: https://drive.google.com/file/d/11sztp_fEgl3_SZQacRu1gy47rqio3y-M/view?usp=sharing
+				</p>
+				<p>Check out my code:
+					https://drive.google.com/drive/folders/15FVWOEq5oDMdwr_T4bk__HoQxbVutwQo?usp=sharing </p>
+
+
+				<h2>Is Your Essay Ivy Material? - Essay Evaluation</h2>
+				<p>Explored the ability of LLMs to classify college essays by
+					university acceptance, trying to detect logical harmony in a
+					generally abstracted task. Discovered that while the lack
+					of a large data corpus does limit unsupervised clustering
+					algorithms, there are valuable quantitative and qualitative
+					motifs uncovered by LLMs on the supervised learning and
+					in-context learning classification task respectively.
+					<br></br>
+					Examined the effectiveness of finetuning pretrained autoencoder models (BERT) with strong semantic
+					understandings to identify commonalities between accepted essays, compared to baselines of
+					RobertaForSequenceClassification, unsupervised clustering algorithms such as KMeans and Hierarchical
+					Agglomerative
+					Clustering, and a few-shot chain-of-thought prompting approach, which enables the language model to
+					learn from a
+					few gold-standard examples.
+				</p>
+				<span class="image main"><img src="images/essayEval.png" alt="" /></span> <br></br>
+				<p>Project Report: https://drive.google.com/file/d/1tM0uKSgT5wxlhREY-FQz1DFWOft5UrgP/view?usp=sharing
+				</p>
+				<p>Check out my code and data:
+					https://drive.google.com/drive/folders/16EkzS_DfS1zUWHD1SNBaspUC4L9vTZnV?usp=drive_link </p>
+				<p>Check out my project video: https://www.youtube.com/watch?v=8VCB8Vb-ueg </p>
+
+
+
+
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+
+			<section>
+				<h2>Get In Touch</h2>
+				<dl class="alt">
+					<dt>LinkedIn</dt>
+					<dd><a href="https://www.linkedin.com/in/aditya-kumaran/">Aditya Kumaran</a></dd>
+					<dt>Phone</dt>
+					<dd>(470) 838-0468</dd>
+					<dt>Email</dt>
+					<dd><a href="#">akumaran6@gatech.edu</a></dd>
+				</dl>
+				<ul class="icons">
+					<!-- <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li> -->
-								<li><a href="https://www.instagram.com/adityakumaran/" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/aditya-kumaran" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Aditya Kumaran (2022). Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+					<li><a href="https://www.instagram.com/adityakumaran/" class="icon brands fa-instagram alt"><span
+								class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/aditya-kumaran" class="icon brands fa-github alt"><span
+								class="label">GitHub</span></a></li>
+				</ul>
+			</section>
+			<p class="copyright">&copy; Aditya Kumaran (2022). Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		</footer>
 
-			</div>
+	</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
